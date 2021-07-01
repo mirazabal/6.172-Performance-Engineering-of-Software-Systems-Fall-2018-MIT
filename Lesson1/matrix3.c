@@ -27,7 +27,7 @@ int main()
   struct timeval start, end;
 
   gettimeofday(&start, NULL);
-  const int chunk = 32;
+  const int chunk = 512;
   for(int ih =0; ih < n; ih += chunk ){
     for(int jh =0; jh < n; jh += chunk ){
       for(int kh =0; kh < n; kh += chunk ){

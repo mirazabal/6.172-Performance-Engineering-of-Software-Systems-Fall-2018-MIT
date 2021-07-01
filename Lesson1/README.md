@@ -29,5 +29,5 @@ NUMA node0 CPU(s):               0-11
 
 matrix1.c = 1799.594360 sec 
 matrix2.c = 225.989929 sec 
-matrix3.c = 65.614449 sec (compiled with -O2 -march=native)
+matrix3.c = 47.397507 sec (compiled with -O2 -march=native)
 
